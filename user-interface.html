@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>User Interface</title>
+  <style>
+    /* Add some styles to make the UI look better */
+    body {
+      background-color: #F5F5F5;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 50px;
+      font-family: Arial, sans-serif;
+    }
+    form {
+      width: 300px;
+      margin: 0 auto;
+    }
+    label {
+      font-family: Arial, sans-serif;
+      font-size: 16px;
+      display: block;
+      margin-top: 20px;
+    }
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+    }
+    input[type="Button"] {
+      width: 100%;
+      background-color: #4CAF50;
+      color: rgb(17, 17, 17);
+      font-weight: 700;
+      font-family: Arial, Helvetica, sans-serif;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    
+    }
+    input[type="Button"]:hover {
+      background-color: #63e0d6;
+    }
+  </style>
+</head>
+<body>
+ 
+  <h1>Welcome to my User Interface</h1>
+  
+  <form action="" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" name="username">
+    <br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br><br>
+  
+   <a href="/index.html"> <input type="Button" value="Submit"></a>
+   
+</form>
+  
+  <!-- <script>
+    // Add some JavaScript to make the UI more interactive
+    // Example: Show a message when the form is submitted
+    const form = document.querySelector("form");
+    form.addEventListener("Submit", event => {
+      event.preventDefault();
+      alert("Form submitted!");
+    });
+  </script> -->
+</body>
+</html>
